@@ -1,0 +1,40 @@
+.task {
+  display: flex;
+  padding: 10px 15px;
+  background-color: #f0f0f0;
+  margin-top: 5px;
+}
+
+.task .id {
+  flex: 1 1 50px
+}
+
+.task.done .content {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.219);
+}
+
+.task .content {
+  flex: 1 1 100%;
+  border-bottom: 200px black;
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  background-color: red;
+  color: white;
+}
+
+input.task-input{
+  font-size: 1.25rem;
+}
+
+input.task-add {
+  background-color: green;
+  border: none;
+  color: white;
+  font-size: 1.25rem;
+  margin-left: 10px;
+  cursor: pointer;
+}
