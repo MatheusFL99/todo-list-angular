@@ -6,7 +6,7 @@
 }
 
 .task .id {
-  flex: 1 1 50px
+  flex: 1 1 50px;
 }
 
 .task.done .content {
@@ -24,6 +24,7 @@ button {
   border: none;
   background-color: red;
   color: white;
+  cursor: pointer;
 }
 
 input.task-input{
